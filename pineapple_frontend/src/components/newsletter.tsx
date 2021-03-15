@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Newsletter = (): JSX.Element => (
-    <div>
+    <section>
         <h1>Subscribe to newsletter</h1>
         <p>Subscribe to our newsletter and get 10% discount on pineapple glasses</p>
         <form>
@@ -9,7 +9,7 @@ const Newsletter = (): JSX.Element => (
             <input type="checkbox" /> <p>I agree to <a href="#">terms of service</a></p>
             <button type="submit">Subscribe</button>
         </form>
-    </div>
+    </section>
 )
 
 export default Newsletter
