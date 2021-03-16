@@ -1,0 +1,17 @@
+@use "colors.scss";
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: colors.$black;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: colors.$gray;
+}

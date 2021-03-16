@@ -3,14 +3,18 @@ import './App.css'
 import Navbar from './components/navbar'
 import Newsletter from './components/newsletter'
 import Footer from './components/footer'
+import './styles/css/app.css'
+import pineappel from './pineapple-3413953_960_720.jpg'
 
 const App = (): JSX.Element => {
     return (
-        <div>
-            <Navbar />
-            <Newsletter />
-            <h1>HERE GOES THE PINAPPLE IMAGE</h1>
-            <Footer />
+        <div className="content">
+            <div className="register">
+                <Navbar />
+                <Newsletter />
+                <Footer />
+            </div>
+            <img src={pineappel} alt="image of a beatiful pineapple" />
         </div>
     )
 }

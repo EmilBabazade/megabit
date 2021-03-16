@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+}
+
+.register {
+  background-color: #F2F5FA;
+  flex: 4;
+  min-width: 40%;
+}
+
+img {
+  flex: 6;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+/*# sourceMappingURL=app.css.map */

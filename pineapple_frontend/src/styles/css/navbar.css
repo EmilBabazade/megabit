@@ -1,0 +1,35 @@
+a:link {
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+a:hover {
+  color: #4066A5;
+}
+
+a:visited {
+  color: #233759;
+}
+
+nav {
+  background-color: #F2F5FA;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li {
+  flex: 2;
+}
+
+h6 {
+  flex: 3;
+}
+
+/*# sourceMappingURL=navbar.css.map */

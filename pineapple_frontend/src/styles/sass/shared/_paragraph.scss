@@ -1,0 +1,9 @@
+@use "colors";
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: colros.$black;
+}

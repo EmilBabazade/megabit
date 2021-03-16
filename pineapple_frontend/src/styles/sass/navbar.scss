@@ -1,0 +1,21 @@
+@use "shared/link";
+@use "shared/colors";
+
+nav {
+    background-color: colors.$white;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    flex: 2;
+}
+
+h6 {
+    flex: 3;
+}

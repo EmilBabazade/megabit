@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import './styles/sass/css/bundle.css'
 
 ReactDOM.render(
     <App />,
