@@ -1,43 +1,61 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url("../pineapple-3413953_960_720.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
 .content {
-  display: flex;
+  float: left;
+  height: 100%;
 }
 
 .register {
   background-color: #F2F5FA;
-  flex: 4;
   min-width: 40%;
+  height: 100%;
 }
 .register div {
   padding: 15%;
   padding-right: none;
 }
 
-img {
-  flex: 6;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
+h1 {
+  margin: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .content {
     display: block;
     height: 40%;
   }
 
-  img.background {
-    z-index: 1;
-    height: 100vh;
+  .main {
+    display: block;
+    position: absolute;
+    width: 100%;
   }
 
   .register {
-    position: fixed;
-    z-index: 2;
+    position: absolute;
     left: 20%;
     right: 20%;
     margin-top: 20%;
     margin-bottom: 20%;
+    height: fit-content;
   }
   .register div {
     padding: 5%;

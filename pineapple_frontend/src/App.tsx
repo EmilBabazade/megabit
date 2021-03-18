@@ -9,14 +9,13 @@ import pineappel from './pineapple-3413953_960_720.jpg'
 const App = (): JSX.Element => {
     return (
         <div className="content">
+            <Navbar />
             <div className="register">
-                <Navbar />
                 <div>
                     <Newsletter />
                     <Footer />
                 </div>
             </div>
-            <img className="background" src={pineappel} alt="image of a beatiful pineapple" />
         </div>
     )
 }

@@ -1,26 +1,45 @@
 @use "./shared/colors";
 @use "./shared/global_vars";
 
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: url('../pineapple-3413953_960_720.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    ul {
+    margin: 0;
+    }
+}
+
+#root {
+    height: 100%;
+}
+
 .content {
-    display: flex;
+    float: left;
+    height: 100%;
 }
 
 .register {
     background-color: colors.$white;
-    flex: 4;
     min-width: 40%;
     div {
         padding: 15%;
         padding-right: none;
     }
+    height: 100%;
 }
 
-img {
-    flex: 6;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
+h1 {
+    margin: 0;
 }
 
 @media screen and (max-width: global_vars.$mobile_max_width) {  
@@ -28,19 +47,28 @@ img {
         display: block;
         height: 40%;
     }
+
+    .main {
+        display: block;
+        position: absolute;
+        width: 100%;
+        // z-index: 2;
+    }
     
-    img.background {
-        z-index: 1;
-        height: 100vh;
-    } 
+    // img.background {
+    //     // z-index: 1;
+    //     height: 100vh;
+    // } 
     
     .register {
-        position: fixed;
-        z-index: 2;
+        position: absolute;
+        // z-index: 2;
         left: 20%;
         right: 20%;
         margin-top: 20%;
         margin-bottom: 20%;
+        height: fit-content;
+        // width: 60;
 
         div {
             padding: 5%;
