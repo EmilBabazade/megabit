@@ -3,4 +3,8 @@
 @use './shared/heading';
 @use './shared/paragraph';
 @use './shared/input';
-@use './shared/checkmark'
+@use './shared/checkmark';
+
+input[type="email"] {
+    float: right;
+}

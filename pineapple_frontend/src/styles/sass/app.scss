@@ -25,16 +25,21 @@ nav{
 
 .content {
     float: left;
+    display: flex;
+    flex-flow: column;
     height: 100%;
 }
 
+.navbar {
+    flex: 1;
+}
+
 .register {
+    flex: 9;
     background-color: colors.$white;
     min-width: 40%;
-    div {
-        padding: 15%;
-        padding-right: none;
-    }
+    padding: 15%;
+    padding-right: none;
     height: 100%;
 }
 

@@ -74,4 +74,8 @@ input:hover {
   color: #41B883;
 }
 
+input[type=email] {
+  float: right;
+}
+
 /*# sourceMappingURL=newsletter.css.map */

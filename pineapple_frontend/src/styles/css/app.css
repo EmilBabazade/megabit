@@ -20,17 +20,22 @@ nav ul {
 
 .content {
   float: left;
+  display: flex;
+  flex-flow: column;
   height: 100%;
 }
 
+.navbar {
+  flex: 1;
+}
+
 .register {
+  flex: 9;
   background-color: #F2F5FA;
   min-width: 40%;
-  height: 100%;
-}
-.register div {
   padding: 15%;
   padding-right: none;
+  height: 100%;
 }
 
 h1 {
