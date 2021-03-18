@@ -44,8 +44,8 @@ h1 {
 
 @media screen and (max-width: global_vars.$mobile_max_width) {  
     .content {
-        display: block;
-        height: 40%;
+        // display: block;
+        width: 100%;
     }
 
     .main {
