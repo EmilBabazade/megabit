@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
@@ -47,6 +48,30 @@ input:focus, input:hover {
 
 input:hover {
   outline: auto;
+}
+
+.checkmark label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+.checkmark input {
+  border: 1px solid #131821;
+  border-radius: none;
+  width: 26px;
+  height: 26px;
+  outline: none;
+}
+.checkmark input:checked {
+  background-color: #4066A5;
+  content: "✓";
+}
+.checkmark input:checked + span {
+  content: "✓";
+  display: block;
+  text-align: center;
+  color: #41B883;
 }
 
 /*# sourceMappingURL=newsletter.css.map */
