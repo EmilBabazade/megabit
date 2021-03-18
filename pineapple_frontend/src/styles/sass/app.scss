@@ -1,4 +1,5 @@
 @use "./shared/colors";
+@use "./shared/global_vars";
 
 .content {
     display: flex;
@@ -20,4 +21,29 @@ img {
     max-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+}
+
+@media screen and (max-width: global_vars.$mobile_max_width) {  
+    .content {
+        display: block;
+        height: 40%;
+    }
+    
+    img.background {
+        z-index: 1;
+        height: 100vh;
+    } 
+    
+    .register {
+        position: fixed;
+        z-index: 2;
+        left: 20%;
+        right: 20%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+
+        div {
+            padding: 5%;
+        }
+    }
 }

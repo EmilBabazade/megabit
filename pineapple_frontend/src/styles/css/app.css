@@ -20,4 +20,28 @@ img {
   vertical-align: bottom;
 }
 
+@media screen and (max-width: 1000px) {
+  .content {
+    display: block;
+    height: 40%;
+  }
+
+  img.background {
+    z-index: 1;
+    height: 100vh;
+  }
+
+  .register {
+    position: fixed;
+    z-index: 2;
+    left: 20%;
+    right: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .register div {
+    padding: 5%;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

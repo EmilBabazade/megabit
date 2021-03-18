@@ -16,7 +16,7 @@ const App = (): JSX.Element => {
                     <Footer />
                 </div>
             </div>
-            <img src={pineappel} alt="image of a beatiful pineapple" />
+            <img className="background" src={pineappel} alt="image of a beatiful pineapple" />
         </div>
     )
 }
