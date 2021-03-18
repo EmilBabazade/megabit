@@ -8,6 +8,10 @@
     background-color: colors.$white;
     flex: 4;
     min-width: 40%;
+    div {
+        padding: 15%;
+        padding-right: none;
+    }
 }
 
 img {

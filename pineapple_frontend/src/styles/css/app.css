@@ -7,6 +7,10 @@
   flex: 4;
   min-width: 40%;
 }
+.register div {
+  padding: 15%;
+  padding-right: none;
+}
 
 img {
   flex: 6;

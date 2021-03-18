@@ -9,7 +9,7 @@ import pineappel from './pineapple-3413953_960_720.jpg'
 const App = (): JSX.Element => {
     return (
         <div className="content">
-            <div>
+            <div className="register">
                 <Navbar />
                 <div>
                     <Newsletter />

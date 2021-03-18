@@ -1,4 +1,5 @@
 @use "colors.scss";
+@use "global_vars";
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,4 +15,16 @@ h2 {
     font-size: 16px;
     line-height: 28px;
     color: colors.$gray;
+}
+
+@media screen and (max-width: global_vars.$mobile_max_width) {
+    h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 26px;
+    }
 }
