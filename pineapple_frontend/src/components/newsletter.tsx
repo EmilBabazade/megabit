@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/css/newsletter.css'
 
 const Newsletter = (): JSX.Element => (
     <section>
