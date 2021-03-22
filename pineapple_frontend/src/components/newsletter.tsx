@@ -1,4 +1,5 @@
 import React from 'react'
+import Arrow from './arrow.svg'
 
 const Newsletter = (): JSX.Element => (
     <section>
@@ -7,7 +8,9 @@ const Newsletter = (): JSX.Element => (
         <form>
             <div className="email">
                 <input type="email" placeholder="Type your email address here..."/>
-                <button type="submit">Subscribe</button>
+                <a className="submit" href="#">
+                    <img src={Arrow} />
+                </a>
             </div>
             <div className="checkmark">
                 <input type="checkbox" /> 
