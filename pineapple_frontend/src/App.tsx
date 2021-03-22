@@ -3,7 +3,6 @@ import './App.css'
 import Navbar from './components/navbar'
 import Newsletter from './components/newsletter'
 import Footer from './components/footer'
-import './styles/css/app.css'
 
 const App = (): JSX.Element => {
     return (

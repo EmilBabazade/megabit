@@ -5,6 +5,31 @@
 @use './shared/input';
 @use './shared/checkmark';
 
-input[type="email"] {
-    float: right;
+
+section {
+    display: flex;
+    flex-flow: column;
+    h1, p, form {
+        flex: 1;
+    }
+    .email {
+        // display: flex;
+        // flex-flow: row;
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            border-right: none;
+            background-color: red;
+        }
+        button {
+            position: relative;
+            left: 20%;
+            // flex: 1;
+            border-left: none;
+        }
+    }
 }
+
+// input[type="email"] {
+//     float: right;
+// }

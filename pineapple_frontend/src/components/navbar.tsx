@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/css/navbar.css'
 import PineappleLogo from './pineapple.svg'
 
 const Navbar = (): JSX.Element => (

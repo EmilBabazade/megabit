@@ -36,6 +36,15 @@ nav ul {
   padding: 15%;
   padding-right: none;
   height: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-right: 0;
+}
+.register section {
+  flex: 2;
+}
+.register footer {
+  flex: 1;
 }
 
 h1 {

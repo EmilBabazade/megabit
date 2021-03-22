@@ -74,8 +74,23 @@ input:hover {
   color: #41B883;
 }
 
-input[type=email] {
-  float: right;
+section {
+  display: flex;
+  flex-flow: column;
+}
+section h1, section p, section form {
+  flex: 1;
+}
+section .email input {
+  width: 100%;
+  box-sizing: border-box;
+  border-right: none;
+  background-color: red;
+}
+section .email button {
+  position: relative;
+  left: 20%;
+  border-left: none;
 }
 
 /*# sourceMappingURL=newsletter.css.map */

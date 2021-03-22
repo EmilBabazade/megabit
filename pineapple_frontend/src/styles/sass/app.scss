@@ -41,6 +41,16 @@ nav{
     padding: 15%;
     padding-right: none;
     height: 100%;
+    display: flex;
+    flex-flow: column;
+    section {
+        flex: 2;
+    }
+    footer {
+        flex: 1;
+    }
+    // this is for the newsletter part, so the button can be overflowed over the background
+    padding-right: 0;
 }
 
 h1 {
